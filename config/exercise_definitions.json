@@ -1,0 +1,227 @@
+{
+  "squat": {
+    "description": "Lower body compound movement",
+    "classes": {
+      "perfect_form": {
+        "description": "athlete performing squat with perfect form knees tracking over toes throughout entire movement chest up and shoulders retracted neutral spine with slight forward lean full depth below parallel smooth controlled descent smooth controlled ascent no momentum or bouncing",
+        "cues": ["knees tracking", "chest up", "neutral spine", "full depth", "controlled", "smooth"],
+        "severity": 0
+      },
+      "good_form": {
+        "description": "squat with good form knees mostly tracking over toes chest elevated neutral spine full or near-full depth controlled movement minor inconsistencies acceptable",
+        "cues": ["good form", "knees aligned", "depth acceptable", "mostly controlled"],
+        "severity": 1
+      },
+      "partial_depth": {
+        "description": "squat movement but not reaching full depth stopping above parallel shallow squat missing full range of motion",
+        "cues": ["shallow depth", "above parallel", "partial range", "limited depth"],
+        "severity": 2
+      },
+      "knee_valgus": {
+        "description": "squat with knees caving inward valgus collapse knees not tracking over toes inward cave on ascent form breakdown",
+        "cues": ["knees caving", "valgus", "inward collapse", "misaligned"],
+        "severity": 3
+      },
+      "excessive_lean": {
+        "description": "squat with excessive forward lean torso folding over knees too much forward pitch compensatory movement poor mechanics",
+        "cues": ["excessive lean", "folding over", "too forward", "compensation"],
+        "severity": 3
+      },
+      "chest_collapse": {
+        "description": "squat with chest collapsed rounded upper back loss of neutral spine core disengagement poor positioning",
+        "cues": ["chest collapsed", "rounded back", "folded", "disengaged"],
+        "severity": 3
+      },
+      "bouncing": {
+        "description": "squat with bouncing or momentum at bottom using elastic rebound instead of controlled movement jerky motion",
+        "cues": ["bouncing", "momentum", "jerky", "elastic rebound"],
+        "severity": 2
+      },
+      "heels_up": {
+        "description": "squat with heels lifting off ground shifting weight to toes instability ankle mobility issue",
+        "cues": ["heels up", "weight on toes", "unstable", "ankle issue"],
+        "severity": 2
+      }
+    }
+  },
+  "deadlift": {
+    "description": "Full body pulling compound movement",
+    "classes": {
+      "perfect_form": {
+        "description": "deadlift with perfect form neutral spine throughout shoulders over bar chest elevated scapulae engaged smooth continuous pull no hitching no bar drifting from body stable lockout at top",
+        "cues": ["neutral spine", "shoulders over bar", "chest up", "smooth pull", "close to body"],
+        "severity": 0
+      },
+      "good_form": {
+        "description": "deadlift with good form neutral or near-neutral spine shoulders approximately over bar chest elevated mostly smooth pull bar path mostly straight minor deviations acceptable",
+        "cues": ["good form", "neutral spine", "shoulders near bar", "chest up", "mostly smooth"],
+        "severity": 1
+      },
+      "rounded_back": {
+        "description": "deadlift with rounded lower back lumbar flexion spine curvature loss of neutral position dangerous form breakdown",
+        "cues": ["rounded back", "lumbar flexion", "curved spine", "dangerous"],
+        "severity": 3
+      },
+      "hips_too_high": {
+        "description": "deadlift with hips positioned too high excessive hip extension early glute-dominant pull improper setup inefficient positioning",
+        "cues": ["hips too high", "butt up", "glute extension", "inefficient"],
+        "severity": 2
+      },
+      "shoulders_behind_bar": {
+        "description": "deadlift with shoulders positioned behind bar unstable starting position early back engagement poor mechanics",
+        "cues": ["shoulders behind bar", "behind", "unstable start", "poor position"],
+        "severity": 2
+      },
+      "bar_drifting": {
+        "description": "deadlift with bar drifting away from body swinging forward excessive forward trajectory inefficient pull poor bar path",
+        "cues": ["bar drifting", "forward", "swinging", "away from body"],
+        "severity": 2
+      },
+      "hitching": {
+        "description": "deadlift with hitching movement stalling at mid-shin multiple pulls bumping hips jerky movement",
+        "cues": ["hitching", "stalling", "bumping hips", "multiple pulls", "jerky"],
+        "severity": 2
+      },
+      "incomplete_lockout": {
+        "description": "deadlift with incomplete lockout not fully extending at top hips not fully extended knees still bent",
+        "cues": ["incomplete lockout", "not extended", "hips bent", "knees bent"],
+        "severity": 2
+      }
+    }
+  },
+  "bench_press": {
+    "description": "Upper body pushing compound movement",
+    "classes": {
+      "perfect_form": {
+        "description": "bench press with perfect form elbows at approximately 45 degrees full range of motion bar touching chest stable shoulders scapulae retracted smooth concentric and eccentric phases controlled lockout at top",
+        "cues": ["45 degree elbows", "full range", "bar touches", "stable", "smooth"],
+        "severity": 0
+      },
+      "good_form": {
+        "description": "bench press with good form elbows mostly at 45 degrees good range of motion bar near chest stable shoulders mostly smooth movement minor inconsistencies acceptable",
+        "cues": ["good form", "reasonable angles", "good range", "stable"],
+        "severity": 1
+      },
+      "elbows_flared": {
+        "description": "bench press with elbows excessively flared wide arms perpendicular to body shoulder impingement risk poor mechanics increased injury risk",
+        "cues": ["elbows flared", "wide", "perpendicular", "90 degrees", "unsafe"],
+        "severity": 3
+      },
+      "partial_range": {
+        "description": "bench press with partial range of motion not bringing bar to chest stopping above chest incomplete rep quarter reps",
+        "cues": ["partial range", "quarter rep", "high stops", "incomplete"],
+        "severity": 2
+      },
+      "bouncing": {
+        "description": "bench press with bouncing ball touching chest using elastic rebound unstable movement jerky motion",
+        "cues": ["bouncing", "elastic rebound", "ball-like", "jerky"],
+        "severity": 2
+      },
+      "bar_path_unstable": {
+        "description": "bench press with unstable bar path bar drifting sideways uneven pressing one side higher than other",
+        "cues": ["unstable path", "drifting", "uneven", "sideways"],
+        "severity": 2
+      },
+      "shoulder_instability": {
+        "description": "bench press with shoulder instability shoulders rising off bench shoulder shrugging scapulae not retracted loose shoulders",
+        "cues": ["shoulders up", "shrugging", "unstable", "not retracted"],
+        "severity": 3
+      },
+      "incomplete_lockout": {
+        "description": "bench press with incomplete lockout not fully extending elbows at top half lockout bent elbows at lockout",
+        "cues": ["incomplete lockout", "not extended", "bent elbows", "partial extension"],
+        "severity": 2
+      }
+    }
+  },
+  "barbell_row": {
+    "description": "Back pulling compound movement",
+    "classes": {
+      "perfect_form": {
+        "description": "barbell row with perfect form neutral spine slight forward lean chest up scapulae retracted smooth pull bar to chest elbows driven back controlled eccentric full range of motion",
+        "cues": ["neutral spine", "chest up", "scapulae retracted", "bar to chest", "elbows back"],
+        "severity": 0
+      },
+      "good_form": {
+        "description": "barbell row with good form good spinal position mostly chest up mostly retracted scapulae good pull height controlled movement minor deviations acceptable",
+        "cues": ["good form", "good position", "chest up", "good pull", "mostly controlled"],
+        "severity": 1
+      },
+      "rounded_back": {
+        "description": "barbell row with rounded lower back lumbar flexion loss of neutral spine dangerous form poor spinal alignment",
+        "cues": ["rounded back", "curved spine", "lumbar flexion", "dangerous"],
+        "severity": 3
+      },
+      "excessive_lean": {
+        "description": "barbell row with excessive forward lean using momentum compensating with hips excessive weight shift poor form",
+        "cues": ["excessive lean", "too much lean", "momentum", "compensatory"],
+        "severity": 2
+      },
+      "chest_not_up": {
+        "description": "barbell row with chest not elevated chest folded over poor upper back engagement reduced range of motion",
+        "cues": ["chest down", "folded", "not elevated", "poor engagement"],
+        "severity": 2
+      },
+      "elbows_wide": {
+        "description": "barbell row with elbows flared excessively wide poor scapular mechanics reduced back engagement shoulder strain",
+        "cues": ["elbows wide", "flared", "poor mechanics", "shoulder strain"],
+        "severity": 2
+      },
+      "partial_range": {
+        "description": "barbell row with partial range of motion bar not reaching chest short pull incomplete movement",
+        "cues": ["partial range", "short pull", "bar not to chest", "incomplete"],
+        "severity": 2
+      },
+      "bouncing_momentum": {
+        "description": "barbell row with bouncing or using momentum jerky movement elastic rebound using lower body help",
+        "cues": ["bouncing", "momentum", "jerky", "using legs"],
+        "severity": 2
+      }
+    }
+  },
+  "overhead_press": {
+    "description": "Upper body vertical pressing movement",
+    "classes": {
+      "perfect_form": {
+        "description": "overhead press with perfect form neutral spine core engaged bar starting at shoulders scapulae retracted smooth pressing motion elbows under bar full lockout overhead stable throughout",
+        "cues": ["neutral spine", "core engaged", "elbows under", "smooth press", "full lockout"],
+        "severity": 0
+      },
+      "good_form": {
+        "description": "overhead press with good form mostly neutral spine core engaged good starting position mostly smooth pressing motion elbows mostly under bar good lockout minor deviations acceptable",
+        "cues": ["good form", "good spine", "engaged", "mostly smooth", "good lockout"],
+        "severity": 1
+      },
+      "excessive_lean": {
+        "description": "overhead press with excessive forward or backward lean arching back using momentum shifting weight compensatory movement",
+        "cues": ["excessive lean", "arching", "momentum", "shifting weight"],
+        "severity": 2
+      },
+      "core_disengagement": {
+        "description": "overhead press with loose core weak bracing spinal instability excessive back arch loss of neutral spine",
+        "cues": ["loose core", "weak bracing", "excessive arch", "unstable"],
+        "severity": 3
+      },
+      "elbows_flared": {
+        "description": "overhead press with elbows excessively flared wide improper positioning shoulder impingement poor mechanics",
+        "cues": ["elbows flared", "wide", "improper angle", "impingement risk"],
+        "severity": 2
+      },
+      "bar_path_unstable": {
+        "description": "overhead press with unstable bar path bar drifting forward or sideways uneven pressing wobbly",
+        "cues": ["unstable path", "drifting forward", "uneven", "wobbly"],
+        "severity": 2
+      },
+      "incomplete_lockout": {
+        "description": "overhead press with incomplete lockout not fully extending elbows at top bent elbows overhead half lockout",
+        "cues": ["incomplete lockout", "not extended", "bent elbows", "partial"],
+        "severity": 2
+      },
+      "head_blocking": {
+        "description": "overhead press with head in bar path not pressing through bar head not moving back improper bar path",
+        "cues": ["head blocking", "head forward", "poor path", "incomplete movement"],
+        "severity": 2
+      }
+    }
+  }
+}
