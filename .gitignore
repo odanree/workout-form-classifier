@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Large files
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.pt
+*.pth
+*.bin
+*.pickle
+
+# Output directories
+.workout_output_*/
+results/
+outputs/
+
+# Node (frontend)
+web/node_modules/
+web/.next/
+
+# Data (except structure)
+data/training_data/*
+!data/training_data/.gitkeep
+!data/training_data/*/
+!data/training_data/*/.gitkeep
+!data/training_data/*/good_form/.gitkeep
+!data/training_data/*/bad_form/.gitkeep
+
+data/labeled_frames/frames_*
+data/sample_videos/
+
+# Cache
+.cache/
+*.cache

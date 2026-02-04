@@ -1,0 +1,14 @@
+{
+  "detection_threshold": 1.0,
+  "min_scene_length": 0.5,
+  "min_form_confidence": 0.5,
+  "skip_preview": false,
+  "output_formats": ["json"],
+  "exercises": [
+    "squat",
+    "deadlift",
+    "bench_press",
+    "barbell_row",
+    "overhead_press"
+  ]
+}
